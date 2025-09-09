@@ -1,11 +1,14 @@
-Nama: Dharma Pala Candra
+Nama: Dharma Pala Candra\
 NIM: 2409116065
-Manajemen Investasi Keuangan 
-Program ini bertujuan untuk menjadi sebuah platfrom exchange pihak ketiga untuk memudahkan akses sebuah investasi untuk orang awam , portofiolio investasi yang tersedia bisa berupa ,Reksadana ,Obligasi , sSaham dan Crypto.
-Penjelasan Fitur-Fitur Program:
-•	Wallet : Digunakan untuk mengisi atau menarik saldo hasil portofolio investasi.
-•	Investasi : Digunakan untuk view hasil portofolio investasi
-•	Reksadana, Obligasi, Saham dan Crypto : Merupakan instrument investasi yang bisa dibeli.
+
+Manajemen Investasi Keuangan
+
+Program ini bertujuan untuk menjadi sebuah platfrom exchange pihak ketiga untuk memudahkan akses sebuah investasi untuk orang awam , portofiolio investasi yang tersedia bisa berupa ,Reksadana ,Obligasi , Saham dan Crypto.
+
+Penjelasan Fitur-Fitur Program:\
+•	Wallet : Digunakan untuk mengisi atau menarik saldo hasil portofolio investasi.\
+•	Investasi : Digunakan untuk view hasil portofolio investasi\
+•	Reksadana, Obligasi, Saham dan Crypto : Merupakan instrument investasi yang bisa dibeli.\
 •	Log out : Mengkeluarkan program atau menyelesaikan program.
 
 1.	Menu Awal di tampilkan terdapat 7 opsi sebagai berikut:
