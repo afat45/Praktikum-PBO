@@ -42,7 +42,7 @@ Terdapat **dua menu baru**:
 
 Sebelum menggunakan fitur search, terdapat dua opsi:  
 
-1. Search  
+1. Search (Nilai Tambah)
 2. Kembali ke menu utama
 
 <img width="666" height="566" alt="Menu Deskripsi Investasi" src="https://github.com/user-attachments/assets/ca96b2a6-29cc-4c2a-b7c3-5c7899737566" />
