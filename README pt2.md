@@ -88,7 +88,7 @@ Menu ini memiliki **5 opsi**, dengan 4 opsi CRUD:
 
 <img width="790" height="877" alt="Delete" src="https://github.com/user-attachments/assets/de4f88ae-5e66-402c-bed8-b6b27e3ccd8e" />
 
-## Contoh Class `Wallet`
+## Contoh Class `Wallet` (Model)
 
 - Wallet di **model** memiliki properti saldo dengan tipe **integer**, diinisialisasi awal **0**.  
 - **Setter** digunakan untuk mengubah nilai saldo dari class lain.  
@@ -99,13 +99,14 @@ Menu ini memiliki **5 opsi**, dengan 4 opsi CRUD:
 
 <img width="1289" height="842" alt="Class Wallet" src="https://github.com/user-attachments/assets/5214dd24-5076-4180-8f98-f8c8ba19b3af" />
 
-## Contoh Class `Reksadana`
+## Contoh Class `Reksadana` (Model)
 
 - Constructor sudah dideklarasikan.  
 - Getter digunakan untuk keperluan class lain yang berhubungan dengan **Reksadana**.  
 - `public void invest` digunakan untuk menambahkan nilai investasi dari package controller.  
 - Setter bisa digunakan sebagai template untuk keperluan class lain atau modifikasi data.
 
+### Class Reksadana memiliki struktur dan konsep yang sama dengan class lainnya di package model, yaitu Saham, Obligasi, dan Crypto.
 ---
 
 > Semua menu dan class sudah didesain agar **CRUD**, **deskripsi**, dan transaksi investasi dapat dijalankan dengan baik sesuai ketentuan post test.
