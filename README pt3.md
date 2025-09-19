@@ -38,9 +38,16 @@ Di sini, variabel `bitcoin` digunakan untuk memanggil method `info()` yang telah
 
 ![Logika convert btc ke saldo](https://github.com/user-attachments/assets/e02ac3aa-17ba-478c-8bf6-83dd88e47254)  
 
+### c. Penerapan Setter dan Getter (Pengajuan Investasi)  
+Pada bagian ini diterapkan **getter dan setter** dari model `Pengajuan Investasi`.  
+Getter digunakan untuk **mengambil nilai** dari model tersebut, sedangkan setter digunakan untuk **mengganti nilai** di kelas lain yang membutuhkan akses terhadap data investasi.  
+
+![Penerapan setter dan getter Pengajuan Investasi](https://github.com/user-attachments/assets/d676ccec-9e4d-45a2-9ec8-d11d94d0bf82)  
+
 ---
 
 ## 4. Kesimpulan
 - Model `Btc` berhasil dibuat sebagai turunan dari `Crypto`.  
 - Konsep **inheritance** dan **method overriding** berhasil diterapkan.  
 - Fitur baru **BTC to Saldo** dapat dijalankan dengan logika konversi yang telah ditambahkan.  
+- Penerapan **getter dan setter** memungkinkan pengelolaan data `Pengajuan Investasi` secara lebih fleksibel dan terstruktur.  
