@@ -5,9 +5,9 @@
 ---
 
 ## 1. Package
-Pada tahap awal post test 3, saya membuat **model baru** bernama `Btc` yang merupakan **turunan (inheritance)** dari model `Crypto`.  
+Pada tahap awal post test 3, saya membuat **model baru** bernama `Btc` dan `Trcoin` yang merupakan **turunan (inheritance)** dari model `Crypto`.  
 
-![Package](https://github.com/user-attachments/assets/ccb42bb4-918f-4132-9e2d-ed7021ed8aa0)  
+![Package](https://github.com/user-attachments/assets/fd6d7721-d498-4301-a73b-c1a1e8895ba4)  
 
 ---
 
@@ -18,16 +18,16 @@ Setelah melakukan pembelian, nilai BTC berhasil tercatat dengan jumlah sebesar *
 ![Pembelian btc](https://github.com/user-attachments/assets/dcb2976b-c464-42d5-a021-481182003259)  
 
 ### b. Konversi BTC ke Saldo  
-Pada menu **Wallet**, saya menambahkan opsi baru yaitu **“BTC to Saldo”**.  
-Fitur ini menunjukkan pemanfaatan **inheritance** dari `Crypto` yang dipanggil menggunakan **override**, serta penerapan logika konversi BTC menjadi saldo.  
+Pada menu **Wallet**, saya menambahkan opsi baru yaitu **“BTC to Saldo”** dan **“Trcoin to Saldo”**.  
+Fitur ini menunjukkan pemanfaatan **inheritance** dari `Crypto` yang dipanggil menggunakan **override**, serta penerapan logika konversi BTC dan Trcoin menjadi saldo.  
 
-![Convert btc ke saldo](https://github.com/user-attachments/assets/b66e9d01-2adf-45f7-bdea-299d8c02844b)  
+![Convert btc ke saldo](https://github.com/user-attachments/assets/32c876e1-6cd9-4b69-96f4-cbbc8f755abb)  
 
 ---
 
 ## 3. Code Baru
-### a. Model BTC  
-Kelas `Btc` dibuat dengan **extends `Crypto`** dan dilengkapi dengan 2 atribut baru beserta getter-nya.  
+### a. Model BTC dan Trcoin 
+Kelas `Btc` dibuat dengan **extends `Crypto`** dan dilengkapi dengan 2 atribut baru beserta getter-nya, Begitu juga dengan model Trcoin.  
 Selain itu, dilakukan **override** pada method `info()` dari `Crypto` agar menampilkan informasi yang sudah diperbarui di model `Btc`.  
 
 ![Model btc](https://github.com/user-attachments/assets/f34e3f17-92ea-4c3a-816d-148f6ff92998)  
@@ -47,7 +47,7 @@ Getter digunakan untuk **mengambil nilai** dari model tersebut, sedangkan setter
 ---
 
 ## 4. Kesimpulan
-- Model `Btc` berhasil dibuat sebagai turunan dari `Crypto`.  
+- Model `Btc` dan `Trcoin` berhasil dibuat sebagai turunan dari `Crypto`.  
 - Konsep **inheritance** dan **method overriding** berhasil diterapkan.  
-- Fitur baru **BTC to Saldo** dapat dijalankan dengan logika konversi yang telah ditambahkan.  
+- Fitur baru **BTC to Saldo** dan **Trcoin to Saldo** dapat dijalankan dengan logika konversi yang telah ditambahkan.  
 - Penerapan **getter dan setter** memungkinkan pengelolaan data `Pengajuan Investasi` secara lebih fleksibel dan terstruktur.  
