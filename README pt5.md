@@ -30,12 +30,12 @@ Berikut merupakan dokumentasi tabel database yang terlihat di **PhpMyAdmin**:
 ---
 
 ## 3. Output
-### a. Perubahan Program  
+### Perubahan Program  
 Perubahan utama dilakukan pada **program CRUD Pengajuan Investasi**.  
 
 ![CRUD Program](https://github.com/user-attachments/assets/90d4378b-d60b-4b39-854f-164858238bc0)  
 
-### b. Create Data  
+### a. Create Data  
 Menu **Create** digunakan untuk menambahkan data baru dengan ID otomatis pada database.  
 
 ![Create Data](https://github.com/user-attachments/assets/d7dd0bf9-6522-4ea6-ba9b-d99b9164d3aa)  
@@ -44,12 +44,12 @@ Berikut dokumentasi hasil **penambahan data** di NetBeans dan tampilannya pada P
 
 ![Create Result](https://github.com/user-attachments/assets/43a286a9-7b48-4049-91bb-612f423a1e36)  
 
-### c. Read Data  
+### b. Read Data  
 Fungsi **Read** digunakan untuk menampilkan seluruh data yang tersimpan pada database.  
 
 ![Read Data](https://github.com/user-attachments/assets/21f09e50-a573-44e9-a567-fa09a3dc0e8c)  
 
-### d. Update Data  
+### c. Update Data  
 Fungsi **Update** digunakan untuk memperbarui data berdasarkan ID yang dimasukkan.  
 Contoh berikut memperbarui data dengan **ID 11**:  
 
@@ -59,7 +59,7 @@ Berikut hasilnya setelah proses update berhasil dijalankan:
 
 ![Update Result](https://github.com/user-attachments/assets/585740a3-90f6-4e6a-aad1-f0a0cff9d34f)  
 
-### e. Delete Data  
+### d. Delete Data  
 Fungsi **Delete** digunakan untuk menghapus data berdasarkan ID yang dimasukkan.  
 
 ![Delete Form](https://github.com/user-attachments/assets/836487fa-3c03-4cd6-804e-f16f1523489d)  
@@ -77,7 +77,7 @@ Interface ini dibuat khusus untuk program CRUD pada Pengajuan Investasi dan akan
 ![Interface CRUD](https://github.com/user-attachments/assets/a14806cf-bdde-4a02-91a1-fbf73591595e)  
 
 ### b. Override CRUD di Model  
-Berikut hasil penerapan (override) dari interface CRUD pada model `PengajuanInvestasi`:  
+Berikut hasil penerapan (override) dari interface CRUD pada model `PengajuanInvestasi.java`:  
 
 ![Override Model](https://github.com/user-attachments/assets/d78c8c67-6e45-4f1c-b5ac-4d0098dd48b5)  
 
